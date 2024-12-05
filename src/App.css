@@ -64,6 +64,9 @@
   height: 50px;
   font-size: 20px;
   padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
 }
 
 .loading{
@@ -71,11 +74,13 @@
   justify-content: center;
   align-items: center;
   border-right-color: red;
-  border: 15px solid rgba(0,0,0,0.5);
+  border: 5px solid rgba(0,0,0,0.5);
   border-radius: 50%;
   width: 200px;
   height: 200px;
   animation: spin 1s linear infinite;
+  background-color: black;
+  color: white;
 }
 
 /* @keyframes spin {
